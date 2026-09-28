@@ -29,10 +29,12 @@
     "abstract_source": "https://openaccess.thecvf.com/content/ICCV2025/html/Zou_Attention_to_Neural_Plagiarism_Diffusion_Models_Can_Plagiarize_Your_Copyrighted_ICCV_2025_paper.html",
     "author_role_source": "https://openaccess.thecvf.com/content/ICCV2025/html/Zou_Attention_to_Neural_Plagiarism_Diffusion_Models_Can_Plagiarize_Your_Copyrighted_ICCV_2025_paper.html",
     "research_theme": {
-      "id": "ai-copyright-and-ownership",
-      "name": "AI Copyright & Data Ownership",
-      "url": "https://zihangzou.github.io/#ai-copyright-and-ownership"
-    }
+      "id": "law-compliance",
+      "name": "Law Compliance",
+      "url": "https://zihangzou.github.io/#law-compliance"
+    },
+    "homepage_featured": true,
+    "corresponding_authors": []
   },
   {
     "id": "anti-neuron-watermarking",
@@ -62,10 +64,12 @@
     "abstract_source": "https://arxiv.org/abs/2109.09023",
     "author_role_source": "https://arxiv.org/abs/2109.09023",
     "research_theme": {
-      "id": "ai-copyright-and-ownership",
-      "name": "AI Copyright & Data Ownership",
-      "url": "https://zihangzou.github.io/#ai-copyright-and-ownership"
-    }
+      "id": "law-compliance",
+      "name": "Law Compliance",
+      "url": "https://zihangzou.github.io/#law-compliance"
+    },
+    "homepage_featured": true,
+    "corresponding_authors": []
   },
   {
     "id": "lawful-autonomous-driving",
@@ -96,10 +100,15 @@
     "abstract_source": "https://arxiv.org/html/2604.24562v1",
     "author_role_source": "https://arxiv.org/html/2604.24562v1",
     "research_theme": {
-      "id": "grounded-reasoning-and-autonomy",
-      "name": "Grounded Reasoning & Lawful Autonomy",
-      "url": "https://zihangzou.github.io/#grounded-reasoning-and-autonomy"
-    }
+      "id": "law-compliance",
+      "name": "Law Compliance",
+      "url": "https://zihangzou.github.io/#law-compliance"
+    },
+    "homepage_featured": true,
+    "corresponding_authors": [
+      "Rongjie Yu",
+      "Zihang Zou"
+    ]
   },
   {
     "id": "personalized-collision-warning",
@@ -132,8 +141,12 @@
     "research_theme": {
       "id": "personalized-learning-and-safety",
       "name": "Personalized Learning & Traffic Safety",
-      "url": "https://zihangzou.github.io/#personalized-learning-and-safety"
-    }
+      "status": "earlier_work"
+    },
+    "homepage_featured": false,
+    "corresponding_authors": [
+      "Zihang Zou"
+    ]
   },
   {
     "id": "crash-risk-analysis",
@@ -165,7 +178,50 @@
     "research_theme": {
       "id": "personalized-learning-and-safety",
       "name": "Personalized Learning & Traffic Safety",
-      "url": "https://zihangzou.github.io/#personalized-learning-and-safety"
-    }
+      "status": "earlier_work"
+    },
+    "homepage_featured": false,
+    "corresponding_authors": [
+      "Zihang Zou"
+    ]
+  },
+  {
+    "id": "adversarial-mixup",
+    "title": "Improving model robustness of traffic crash risk evaluation via adversarial mix-up under traffic flow fundamental diagram",
+    "authors": [
+      "Rongjie Yu",
+      "Lei Han",
+      "Mohamed Abdel-Aty",
+      "Liqiang Wang",
+      "Zihang Zou"
+    ],
+    "year": 2024,
+    "venue": "Accident Analysis & Prevention · 2024",
+    "venue_full": "Accident Analysis & Prevention",
+    "kind": "journal",
+    "volume": "194",
+    "article_number": "107360",
+    "role": "Corresponding author",
+    "author_role_source": "Confirmed by Zihang Zou on 2026-09-28",
+    "doi": "10.1016/j.aap.2023.107360",
+    "paper": "https://doi.org/10.1016/j.aap.2023.107360",
+    "abstract": "Recent state-of-art crash risk evaluation studies have exploited deep learning (DL) techniques to improve performance in identifying high-risk traffic operation statuses. However, it is doubtful if such DL-based models would remain robust to real-world traffic dynamics (e.g., random traffic fluctuations.) as DL models are sensitive to input changes, where small perturbations could lead to wrong predictions. This study raises the critical robustness issue for crash risk evaluation models and investigates countermeasures to enhance it. By mixing up crash and non-crash samples under the traffic flow fundamental diagram, traffic flow adversarial examples (TF-AEs) were generated to simulate real-world traffic fluctuations. With the developed TF-AEs, model accuracy decreased by 8% and sensitivity dropped by 18%, indicating weak robustness of the baseline model (a convolutional neural network, CNN-based crash risk evaluation model). Then, a coverage-oriented adversarial training method was proposed to improve model robustness in highly imbalanced crash and non-crash situations and various crash risk transition patterns. Experiments showed that the proposed method was effective to improve model robustness as it could prevent 76.5% accuracy drops and 98.9% sensitivity drops against TF-AEs. Finally, the evaluation model outputs’ stability and limitations of the current study are discussed.",
+    "abstract_source": "https://www.sciencedirect.com/science/article/abs/pii/S0001457523004074",
+    "keywords": [
+      "Adversarial training",
+      "Crash risk evaluation model",
+      "Model robustness",
+      "Traffic flow adversarial example",
+      "Traffic flow fundamental diagram"
+    ],
+    "homepage_featured": true,
+    "research_theme": {
+      "id": "rule-compliance",
+      "name": "Rule Compliance",
+      "url": "https://zihangzou.github.io/#rule-compliance"
+    },
+    "corresponding_authors": [
+      "Zihang Zou"
+    ]
   }
 ]

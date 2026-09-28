@@ -4,7 +4,12 @@
     {
       "id": "law-compliance",
       "title": "Law Compliance",
-      "description": "Grounding AI reasoning and autonomous-system behavior in applicable laws and regulations."
+      "description": "Neural networks in relation to laws, regulations, copyright, and data ownership."
+    },
+    {
+      "id": "rule-compliance",
+      "title": "Rule Compliance",
+      "description": "Domain rules and constraints in neural-network learning and robustness."
     },
     {
       "id": "efficient-learning",
