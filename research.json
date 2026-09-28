@@ -14,23 +14,8 @@
     "description": "Intelligent systems must act within both legal requirements and the physical limits of their environments. My research investigates how these constraints can become part of learning, reasoning, and decision-making. I combine structured representations of laws and domain knowledge with constrained learning and physically grounded simulation, using controlled scenarios to evaluate when model behavior complies with requirements and where it fails.",
     "papers": [
       "lawful-autonomous-driving",
-      "adversarial-mixup"
-    ],
-    "related_work": [
-      {
-        "title": "Vehicle-Dynamics-Aware Motion Planning for Pothole-Hazard Mitigation",
-        "authors": [
-          "Xiang Wang",
-          "Scott Piersall",
-          "Zihang Zou",
-          "Liqiang Wang",
-          "Rongjie Yu"
-        ],
-        "venue": "Journal of Intelligent and Connected Vehicles · 2026",
-        "paper": "https://www.sciopen.com/article/10.26599/JICV.2026.9210098",
-        "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/JICV.2026.9210098.pdf",
-        "replication_package": "https://doi.org/10.26599/ETSD.2026.9190083"
-      }
+      "adversarial-mixup",
+      "vehicle-dynamics-pothole-mitigation"
     ]
   },
   {

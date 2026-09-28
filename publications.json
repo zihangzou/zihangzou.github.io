@@ -247,5 +247,46 @@
     "corresponding_authors": [
       "Zihang Zou"
     ]
+  },
+  {
+    "id": "vehicle-dynamics-pothole-mitigation",
+    "title": "Vehicle-Dynamics-Aware Motion Planning for Pothole-Hazard Mitigation",
+    "authors": [
+      "Xiang Wang",
+      "Scott Piersall",
+      "Zihang Zou",
+      "Liqiang Wang",
+      "Rongjie Yu"
+    ],
+    "year": 2026,
+    "date_published": "2026-09-08",
+    "venue": "Journal of Intelligent and Connected Vehicles · 2026",
+    "venue_full": "Journal of Intelligent and Connected Vehicles",
+    "kind": "journal",
+    "publication_status": "Just Accepted",
+    "role": "Coauthor",
+    "doi": "10.26599/JICV.2026.9210098",
+    "paper": "https://www.sciopen.com/article/10.26599/JICV.2026.9210098",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/JICV.2026.9210098.pdf",
+    "replication_package": "https://doi.org/10.26599/ETSD.2026.9190083",
+    "abstract": "Potholes, recognized as the second most frequent pre-crash event, severely compromise traffic safety while posing critical threats to vehicle structural safety and ride comfort. Existing countermeasures, primarily active suspension control and longitudinal speed regulation, struggle to mitigate these structural impacts without increasing the probability of multi-vehicle conflicts, particularly rear-end collisions. Leveraging the extended preview information regarding pothole geometry and locations provided by vehicle-to-everything (V2X) communication, this study proposes a vehicle-dynamics-aware motion planning framework that introduces proactive intra-lane lateral maneuvering to expand conventional mitigation strategies. The framework systematically integrates microscopic tire-pothole impact mechanics, vertical quarter-car dynamics, and car-following behaviors into a unified closed-loop simulation environment. A curriculum learning strategy is incorporated into the Soft Actor-Critic (SAC) algorithm to progressively increase task complexity, thereby mitigating the training instability caused by abrupt and sparse physical impact penalties. Comprehensive simulations covering diverse pothole geometries, preview distances, speed ranges, and car-following interactions validate the framework. For geometrically avoidable hazards, the trained policy executes proactive lateral bypassing, achieving a 95.8% impact-load compliance rate while reducing travel time over the defined pothole-passage interval by approximately 50%. Under unavoidable conditions, the policy performs adaptive speed regulation, achieving a 46.7% impact-load compliance rate while reducing the rear-end collision rate from 13.3% to 1.7% compared with braking-heavy baselines. Overall, this approach expands vehicle capabilities in localized hazard mitigation, demonstrating the potential of integrating low-level physical dynamic boundaries into motion planning frameworks.",
+    "abstract_source": "https://www.sciopen.com/article/10.26599/JICV.2026.9210098",
+    "author_role_source": "https://www.sciopen.com/article/10.26599/JICV.2026.9210098",
+    "keywords": [
+      "Pothole handling",
+      "Intelligent connected vehicles",
+      "Motion planning",
+      "Vehicle dynamics",
+      "Traffic safety",
+      "Reinforcement learning",
+      "Soft Actor-Critic (SAC)"
+    ],
+    "research_theme": {
+      "id": "law-and-physics-compliance",
+      "name": "Law & Physics Compliance",
+      "url": "https://zihangzou.github.io/#law-and-physics-compliance"
+    },
+    "homepage_featured": true,
+    "corresponding_authors": []
   }
 ]
