@@ -2,29 +2,19 @@
   "scope": "Current and future research focus",
   "areas": [
     {
-      "id": "law-compliance",
-      "title": "Law Compliance",
-      "description": "I study how neural networks interact with legal requirements, including copyright, data ownership, and regulations. My work examines unauthorized use of training data and neural plagiarism, as well as deriving scenario-specific requirements from traffic laws."
+      "id": "copyright-protection-and-data-plagiarism",
+      "title": "Copyright Protection & Data Plagiarism",
+      "description": "My work addresses two related problems: protecting personal data against unauthorized use in model training, and exposing how generative models reproduce copyrighted content. Anti-Neuron Watermarking studies ownership verification, while Neural Plagiarism examines forgery and copyright ambiguity in diffusion models."
     },
     {
-      "id": "rule-compliance",
-      "title": "Rule Compliance",
-      "description": "I study how domain rules can guide neural-network training and robustness evaluation. In adversarial mix-up, the traffic-flow fundamental diagram constrains sample generation, connecting adversarial training to physically meaningful traffic states."
+      "id": "law-and-physics-compliance",
+      "title": "Law & Physics Compliance",
+      "description": "I study how neural networks can follow legal requirements and physical rules in the scenarios where they operate. This includes deriving driving requirements from traffic laws and using the traffic-flow fundamental diagram to constrain adversarial examples. My current work also builds physically grounded simulation environments, combining vehicle dynamics and interactions between vehicles for reinforcement learning."
     },
     {
-      "id": "physical-scenarios-and-simulation",
-      "title": "Physical Scenarios & Simulation",
-      "description": "I work on physical scenarios and simulation for learning and evaluating intelligent-system behavior. Our vehicle-dynamics work combines tire–pothole impacts, vertical vehicle dynamics, and interactions between vehicles in a closed-loop simulation environment for reinforcement learning."
-    },
-    {
-      "id": "efficient-learning",
-      "title": "Efficient Learning",
-      "description": "I am interested in helping models learn with less data and computation. This direction asks how to make effective use of available information while reducing the cost of training and adaptation."
-    },
-    {
-      "id": "lifelong-learning",
-      "title": "Lifelong Learning",
-      "description": "I am interested in models that continue learning as tasks and environments change. The central challenge is to acquire new capabilities while retaining useful knowledge from earlier experience."
+      "id": "efficient-and-lifelong-learning",
+      "title": "Efficient & Lifelong Learning",
+      "description": "I am interested in models that learn with less data and computation and continue adapting as tasks and environments change. The goal is to acquire new capabilities efficiently while retaining useful knowledge from earlier experience."
     }
   ]
 }

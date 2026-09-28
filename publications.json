@@ -29,9 +29,9 @@
     "abstract_source": "https://openaccess.thecvf.com/content/ICCV2025/html/Zou_Attention_to_Neural_Plagiarism_Diffusion_Models_Can_Plagiarize_Your_Copyrighted_ICCV_2025_paper.html",
     "author_role_source": "https://openaccess.thecvf.com/content/ICCV2025/html/Zou_Attention_to_Neural_Plagiarism_Diffusion_Models_Can_Plagiarize_Your_Copyrighted_ICCV_2025_paper.html",
     "research_theme": {
-      "id": "law-compliance",
-      "name": "Law Compliance",
-      "url": "https://zihangzou.github.io/#law-compliance"
+      "id": "copyright-protection-and-data-plagiarism",
+      "name": "Copyright Protection & Data Plagiarism",
+      "url": "https://zihangzou.github.io/#copyright-protection-and-data-plagiarism"
     },
     "homepage_featured": true,
     "corresponding_authors": []
@@ -64,9 +64,9 @@
     "abstract_source": "https://arxiv.org/abs/2109.09023",
     "author_role_source": "https://arxiv.org/abs/2109.09023",
     "research_theme": {
-      "id": "law-compliance",
-      "name": "Law Compliance",
-      "url": "https://zihangzou.github.io/#law-compliance"
+      "id": "copyright-protection-and-data-plagiarism",
+      "name": "Copyright Protection & Data Plagiarism",
+      "url": "https://zihangzou.github.io/#copyright-protection-and-data-plagiarism"
     },
     "homepage_featured": true,
     "corresponding_authors": []
@@ -100,9 +100,9 @@
     "abstract_source": "https://arxiv.org/html/2604.24562v1",
     "author_role_source": "https://arxiv.org/html/2604.24562v1",
     "research_theme": {
-      "id": "law-compliance",
-      "name": "Law Compliance",
-      "url": "https://zihangzou.github.io/#law-compliance"
+      "id": "law-and-physics-compliance",
+      "name": "Law & Physics Compliance",
+      "url": "https://zihangzou.github.io/#law-and-physics-compliance"
     },
     "homepage_featured": true,
     "corresponding_authors": [
@@ -216,9 +216,9 @@
     ],
     "homepage_featured": true,
     "research_theme": {
-      "id": "rule-compliance",
-      "name": "Rule Compliance",
-      "url": "https://zihangzou.github.io/#rule-compliance"
+      "id": "law-and-physics-compliance",
+      "name": "Law & Physics Compliance",
+      "url": "https://zihangzou.github.io/#law-and-physics-compliance"
     },
     "corresponding_authors": [
       "Zihang Zou"
