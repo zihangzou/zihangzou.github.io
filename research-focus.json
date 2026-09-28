@@ -4,17 +4,17 @@
     {
       "id": "copyright-protection-and-data-plagiarism",
       "title": "Copyright Protection & Data Plagiarism",
-      "description": "I study copyright protection and data plagiarism as fundamental challenges in neural networks and generative AI. My research asks how data ownership can be protected and verified when models learn from, transform, and reproduce data, connecting the use of training data with the ownership of generated content."
+      "description": "Neural networks can learn from and reproduce protected data, making it difficult for creators to control how their work is used or establish ownership. My research develops ways to verify unauthorized data use and examines how generative models enable plagiarism and ownership ambiguity. By studying protection mechanisms alongside their failure modes, I aim to make copyright protection effective across both model training and generation."
     },
     {
       "id": "law-and-physics-compliance",
       "title": "Law & Physics Compliance",
-      "description": "I study how neural networks can comply with laws, domain rules, and physical constraints. My research connects these requirements with learning, reasoning, and decision-making, using physical scenarios and simulation to study whether model behavior remains compliant in context."
+      "description": "Intelligent systems must act within both legal requirements and the physical limits of their environments. My research investigates how these constraints can become part of learning, reasoning, and decision-making. I combine structured representations of laws and domain knowledge with constrained learning and physically grounded simulation, using controlled scenarios to evaluate when model behavior complies with requirements and where it fails."
     },
     {
       "id": "efficient-and-lifelong-learning",
       "title": "Efficient & Lifelong Learning",
-      "description": "I study how neural networks can learn efficiently and continue adapting over time. This direction connects learning under limited data and computation with the long-term challenge of acquiring new knowledge while preserving existing capabilities."
+      "description": "Continually changing tasks and environments make repeated retraining costly and put previously learned capabilities at risk. My goal is to connect efficient learning with lifelong adaptation, so that models can acquire new knowledge without discarding what remains useful. This direction asks how to reuse existing representations, limit the data and computation needed for updates, and assess new-task performance together with knowledge retention."
     }
   ]
 }
