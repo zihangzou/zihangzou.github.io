@@ -1,0 +1,42 @@
+[
+  {
+    "id": "ai-copyright-and-ownership",
+    "title": "AI Copyright & Data Ownership",
+    "nav_title": "Copyright & ownership",
+    "description": "How can ownership be verified when personal data is used to train neural networks, and what happens when generative models reproduce copyrighted work? These papers examine two stages of this problem: unauthorized use during training and plagiarism or ownership ambiguity during generation.",
+    "papers": [
+      "neural-plagiarism",
+      "anti-neuron-watermarking"
+    ],
+    "paper_focus": {
+      "neural-plagiarism": "Generation-time plagiarism & ownership ambiguity",
+      "anti-neuron-watermarking": "Training-time data ownership verification"
+    }
+  },
+  {
+    "id": "grounded-reasoning-and-autonomy",
+    "title": "Grounded Reasoning & Lawful Autonomy",
+    "nav_title": "Grounded reasoning & autonomy",
+    "description": "How can language models connect traffic regulations to the situations in which they apply? This work grounds reasoning in a traffic-scenario taxonomy to derive scenario-aware driving requirements and support compliance monitoring.",
+    "papers": [
+      "lawful-autonomous-driving"
+    ],
+    "paper_focus": {
+      "lawful-autonomous-driving": "Scenario-grounded reasoning over traffic laws"
+    }
+  },
+  {
+    "id": "personalized-learning-and-safety",
+    "title": "Personalized Learning & Traffic Safety",
+    "nav_title": "Personalized learning & safety",
+    "description": "How can learning systems account for differences between drivers and the rarity of crash events? These papers study federated personalization for collision warnings and spatiotemporal crash-risk models trained with losses suited to imbalanced data.",
+    "papers": [
+      "personalized-collision-warning",
+      "crash-risk-analysis"
+    ],
+    "paper_focus": {
+      "personalized-collision-warning": "Federated learning for driver-specific collision warnings",
+      "crash-risk-analysis": "Spatiotemporal learning with imbalanced crash data"
+    }
+  }
+]

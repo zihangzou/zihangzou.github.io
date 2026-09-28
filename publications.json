@@ -27,7 +27,12 @@
     ],
     "abstract": "In this paper, we highlight a critical threat posed by emerging neural models--data plagiarism. We demonstrate how modern neural models (e.g., diffusion models) can effortlessly replicate copyrighted images, even when protected by advanced watermarking techniques. To expose the vulnerability in copyright protection and facilitate future research, we propose a general approach regarding neural plagiarism that can either forge replicas of copyrighted data or introduce copyright ambiguity. Our method, based on \"anchors and shims\", employs inverse latents as anchors and finds shim perturbations that can gradually deviate the anchor latents, thereby evading watermark or copyright detection. By applying perturbation to the cross-attention mechanism at different timesteps, our approach induces varying degrees of semantic modifications in copyrighted images, making it to bypass protections ranging from visible trademarks, signatures to invisible watermarks. Notably, our method is a purely gradient-based search that requires no additional training or fine-tuning. Empirical experiments on MS-COCO and real-world copyrighted images show that diffusion models can replicate copyrighted images, underscoring the urgent need for countermeasures against neural plagiarism. Source code is available at: https://github.com/zzzucf/Neural-Plagiarism.",
     "abstract_source": "https://openaccess.thecvf.com/content/ICCV2025/html/Zou_Attention_to_Neural_Plagiarism_Diffusion_Models_Can_Plagiarize_Your_Copyrighted_ICCV_2025_paper.html",
-    "author_role_source": "https://openaccess.thecvf.com/content/ICCV2025/html/Zou_Attention_to_Neural_Plagiarism_Diffusion_Models_Can_Plagiarize_Your_Copyrighted_ICCV_2025_paper.html"
+    "author_role_source": "https://openaccess.thecvf.com/content/ICCV2025/html/Zou_Attention_to_Neural_Plagiarism_Diffusion_Models_Can_Plagiarize_Your_Copyrighted_ICCV_2025_paper.html",
+    "research_theme": {
+      "id": "ai-copyright-and-ownership",
+      "name": "AI Copyright & Data Ownership",
+      "url": "https://zihangzou.github.io/#ai-copyright-and-ownership"
+    }
   },
   {
     "id": "anti-neuron-watermarking",
@@ -55,7 +60,12 @@
     ],
     "abstract": "We study protecting a user's data (images in this work) against a learner's unauthorized use in training neural networks. It is especially challenging when the user's data is only a tiny percentage of the learner's complete training set. We revisit the traditional watermarking under modern deep learning settings to tackle the challenge. We show that when a user watermarks images using a specialized linear color transformation, a neural network classifier will be imprinted with the signature so that a third-party arbitrator can verify the potentially unauthorized usage of the user data by inferring the watermark signature from the neural network. We also discuss what watermarking properties and signature spaces make the arbitrator's verification convincing. To our best knowledge, this work is the first to protect an individual user's data ownership from unauthorized use in training neural networks.",
     "abstract_source": "https://arxiv.org/abs/2109.09023",
-    "author_role_source": "https://arxiv.org/abs/2109.09023"
+    "author_role_source": "https://arxiv.org/abs/2109.09023",
+    "research_theme": {
+      "id": "ai-copyright-and-ownership",
+      "name": "AI Copyright & Data Ownership",
+      "url": "https://zihangzou.github.io/#ai-copyright-and-ownership"
+    }
   },
   {
     "id": "lawful-autonomous-driving",
@@ -84,7 +94,12 @@
     "author_note": "Bowen Jian and Rongjie Yu contributed equally. Corresponding authors: Rongjie Yu and Zihang Zou.",
     "abstract": "Driving in compliance with traffic laws and regulations is a basic requirement for human drivers, yet autonomous vehicles (AVs) can violate these requirements in diverse real-world scenarios. To encode law compliance into AV systems, conventional approaches use formal logic languages to explicitly specify behavioral constraints, but this process is labor-intensive, hard to scale, and costly to maintain. With recent advances in artificial intelligence, it is promising to leverage large language models (LLMs) to derive legal requirements from traffic laws and regulations. However, without explicitly grounding and reasoning in structured traffic scenarios, LLMs often retrieve irrelevant provisions or miss applicable ones, yielding imprecise requirements. To address this, we propose a novel pipeline that grounds LLM reasoning in a traffic scenario taxonomy through node-wise anchors that encode hierarchical semantics. On Chinese traffic laws and OnSite dataset (5,897 scenarios), our method improves law-scenario matching by 29.1% and increases the accuracy of derived mandatory and prohibitive requirements by 36.9% and 38.2%, respectively. We further demonstrate real-world applicability by constructing a law-compliance layer for AV navigation and developing an onboard, real-time compliance monitor for in-field testing, providing a solid foundation for future AV development, deployment, and regulatory oversight.",
     "abstract_source": "https://arxiv.org/html/2604.24562v1",
-    "author_role_source": "https://arxiv.org/html/2604.24562v1"
+    "author_role_source": "https://arxiv.org/html/2604.24562v1",
+    "research_theme": {
+      "id": "grounded-reasoning-and-autonomy",
+      "name": "Grounded Reasoning & Lawful Autonomy",
+      "url": "https://zihangzou.github.io/#grounded-reasoning-and-autonomy"
+    }
   },
   {
     "id": "personalized-collision-warning",
@@ -113,7 +128,12 @@
     ],
     "abstract": "Current designs of advanced driving assistance systems (ADAS) mainly developed uniform collision warning algorithms, which ignore the heterogeneity of driving behaviors, thus lead to low drivers’ trust in. To address this issue, developing personalized driving assistance algorithms is a promising approach. However, current personalization systems were mainly implemented through manually adjusting warning trigger thresholds, which would be less feasible for overall drivers as certain domain expertise is required to set personal thresholds accurately. Other personalization techniques exploited individual drivers’ data to build personalized models. Such approach could learn personal behavior but requires impractical large-scale individual data collections. To fill up the gaps, self-adaptive algorithms for personalized forward collision warning (FCW) based on federated learning were proposed in this study. A baseline model was developed by long short-term memory (LSTM) for FCW. Federated learning framework was then introduced to collect knowledge from multiple drivers with privacy preserving. Specifically, a general cloud server model was trained by collecting updated parameters from individual vehicle server models rather than collecting raw data. Besides, a driver-specific batch normalization (BN) layer was added into each vehicle server model to address the heterogeneity of driving behaviors. Experiments show empirically that the proposed federated-based personalized models with the BN layer showed to have the best performance. The average modeling accuracy has reached 84.88% and the performance is comparable to conventional total data collection training approach, where the additional BN layer could increase the accuracy by 3.48%. Finally, applications of the proposed framework and its further investigations have been discussed.",
     "abstract_source": "https://par.nsf.gov/servlets/purl/10343332",
-    "author_role_source": "https://par.nsf.gov/servlets/purl/10343332"
+    "author_role_source": "https://par.nsf.gov/servlets/purl/10343332",
+    "research_theme": {
+      "id": "personalized-learning-and-safety",
+      "name": "Personalized Learning & Traffic Safety",
+      "url": "https://zihangzou.github.io/#personalized-learning-and-safety"
+    }
   },
   {
     "id": "crash-risk-analysis",
@@ -141,6 +161,11 @@
     ],
     "abstract": "The real-time crash risk analyses were proposed to establish the relationships between crash occurrence probability and pre-crash traffic operational conditions. Given its great application potentials that link with Active Traffic Management System (ATMS) for proactive safety management, it has become an important research area. Currently, researchers mainly developed the real-time crash risk analysis models with traffic flow descriptive statistics employed as explanatory variables and with re-sampled balanced dataset, which hold the limitations of insufficiently capturing the temporal-spatial traffic flow characteristics and failing to provide classification capabilities when deal with the imbalanced datasets. In this study, a Convolutional Neural Network (CNN) modelling approach with refined loss functions has been first time introduced to the real-time crash risk analyses. The primary objectives of the proposed CNN models are: (1) utilizing the tensor-based data structure to explore the multi-dimensional, temporal-spatial correlated pre-crash operational features; and (2) optimizing the loss functions to overcome the low classification accuracy issue brought by the imbalanced data. Data from the Shanghai urban expressway system were utilized for the empirical analysis. And a total of three types of loss functions, including traditional binary cross entropy, the α-weighted cross entropy and the focal loss, were introduced and being tested with varying ratios of crash and non-crash datasets. The modeling results show that the CNN model has better classification performance compared to the traditional Multi-layer Perceptrons (MLP) model with the tensor-based structure data. Besides, the developed CNN model with focal loss function has substantial classification enhancement under the imbalanced datasets. Finally, the distributions of predicting probabilities for balanced and imbalanced datasets were plotted to understand the effects of the imbalanced dataset and revealed how the proposed CNN model with focal loss function improves the model performance.",
     "abstract_source": "https://par.nsf.gov/servlets/purl/10294992",
-    "author_role_source": "https://par.nsf.gov/servlets/purl/10294992"
+    "author_role_source": "https://par.nsf.gov/servlets/purl/10294992",
+    "research_theme": {
+      "id": "personalized-learning-and-safety",
+      "name": "Personalized Learning & Traffic Safety",
+      "url": "https://zihangzou.github.io/#personalized-learning-and-safety"
+    }
   }
 ]
