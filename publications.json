@@ -124,7 +124,15 @@
     "corresponding_authors": [
       "Rongjie Yu",
       "Zihang Zou"
-    ]
+    ],
+    "figure": {
+      "src": "/assets/lawful-autonomous-driving-overview.png",
+      "alt": "Overview of the pipeline to derive driving requirements from traffic scenarios and laws",
+      "label": "Figure 1 · Pipeline overview",
+      "source": "https://arxiv.org/html/2604.24562v1#S1.F1",
+      "width": 2020,
+      "height": 1276
+    }
   },
   {
     "id": "personalized-collision-warning",
