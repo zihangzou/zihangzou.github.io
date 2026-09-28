@@ -10,8 +10,8 @@
   },
   {
     "id": "law-and-physics-compliance",
-    "title": "Law & Physics Compliance",
-    "description": "Intelligent systems must act within both legal requirements and the physical limits of their environments. My research investigates how these constraints can become part of learning, reasoning, and decision-making. I combine structured representations of laws and domain knowledge with constrained learning and physically grounded simulation, using controlled scenarios to evaluate when model behavior complies with requirements and where it fails.",
+    "title": "Law & Physical Rules Compliance",
+    "description": "Intelligent systems must follow legal requirements and the physical rules that govern their environments. My research investigates how these constraints can become part of learning, reasoning, and decision-making. I combine structured representations of laws and domain knowledge with constrained learning and physically grounded simulation, using controlled scenarios to evaluate when model behavior complies with requirements and where it fails.",
     "papers": [
       "lawful-autonomous-driving",
       "adversarial-mixup",
