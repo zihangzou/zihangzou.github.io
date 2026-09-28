@@ -34,7 +34,15 @@
       "url": "https://zihangzou.github.io/#copyright-protection-and-data-plagiarism"
     },
     "homepage_featured": true,
-    "corresponding_authors": []
+    "corresponding_authors": [],
+    "figure": {
+      "src": "/assets/neural-plagiarism-iccv2025-poster.png",
+      "alt": "ICCV 2025 poster: Attention to Neural Plagiarism",
+      "label": "ICCV 2025 poster",
+      "source": "https://github.com/zzzucf/Neural-Plagiarism/blob/main/images/iccv25_poster_neural_plagiarism.png",
+      "width": 4608,
+      "height": 2304
+    }
   },
   {
     "id": "anti-neuron-watermarking",
@@ -69,7 +77,15 @@
       "url": "https://zihangzou.github.io/#copyright-protection-and-data-plagiarism"
     },
     "homepage_featured": true,
-    "corresponding_authors": []
+    "corresponding_authors": [],
+    "figure": {
+      "src": "/assets/anti-neuron-watermarking-figure1.png",
+      "alt": "Anti-Neuron Watermarking: personal image protection against unauthorized neural learners",
+      "label": "ECCV 2022 · Figure 1",
+      "source": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136730449.pdf#page=2",
+      "width": 3015,
+      "height": 1755
+    }
   },
   {
     "id": "lawful-autonomous-driving",
