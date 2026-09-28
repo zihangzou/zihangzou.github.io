@@ -1,19 +1,5 @@
 [
   {
-    "id": "ai-copyright-and-ownership",
-    "title": "AI Copyright & Data Ownership",
-    "nav_title": "Copyright & ownership",
-    "description": "How can ownership be verified when personal data is used to train neural networks, and what happens when generative models reproduce copyrighted work? These papers examine two stages of this problem: unauthorized use during training and plagiarism or ownership ambiguity during generation.",
-    "papers": [
-      "neural-plagiarism",
-      "anti-neuron-watermarking"
-    ],
-    "paper_focus": {
-      "neural-plagiarism": "Generation-time plagiarism & ownership ambiguity",
-      "anti-neuron-watermarking": "Training-time data ownership verification"
-    }
-  },
-  {
     "id": "grounded-reasoning-and-autonomy",
     "title": "Grounded Reasoning & Lawful Autonomy",
     "nav_title": "Grounded reasoning & autonomy",
@@ -37,6 +23,20 @@
     "paper_focus": {
       "personalized-collision-warning": "Federated learning for driver-specific collision warnings",
       "crash-risk-analysis": "Spatiotemporal learning with imbalanced crash data"
+    }
+  },
+  {
+    "id": "ai-copyright-and-ownership",
+    "title": "AI Copyright & Data Ownership",
+    "nav_title": "Copyright & ownership",
+    "description": "How can ownership be verified when personal data is used to train neural networks, and what happens when generative models reproduce copyrighted work? These papers examine two stages of this problem: unauthorized use during training and plagiarism or ownership ambiguity during generation.",
+    "papers": [
+      "neural-plagiarism",
+      "anti-neuron-watermarking"
+    ],
+    "paper_focus": {
+      "neural-plagiarism": "Generation-time plagiarism & ownership ambiguity",
+      "anti-neuron-watermarking": "Training-time data ownership verification"
     }
   }
 ]

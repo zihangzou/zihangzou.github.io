@@ -1,0 +1,20 @@
+{
+  "scope": "Current and future research focus",
+  "areas": [
+    {
+      "id": "law-compliance",
+      "title": "Law Compliance",
+      "description": "Grounding AI reasoning and autonomous-system behavior in applicable laws and regulations."
+    },
+    {
+      "id": "efficient-learning",
+      "title": "Efficient Learning",
+      "description": "Learning with efficient use of data and computational resources."
+    },
+    {
+      "id": "lifelong-learning",
+      "title": "Lifelong Learning",
+      "description": "Learning continually as knowledge, tasks, and environments change."
+    }
+  ]
+}
