@@ -4,22 +4,27 @@
     {
       "id": "law-compliance",
       "title": "Law Compliance",
-      "description": "Neural networks in relation to laws, regulations, copyright, and data ownership."
+      "description": "I study how neural networks interact with legal requirements, including copyright, data ownership, and regulations. My work examines unauthorized use of training data and neural plagiarism, as well as deriving scenario-specific requirements from traffic laws."
     },
     {
       "id": "rule-compliance",
       "title": "Rule Compliance",
-      "description": "Domain rules and constraints in neural-network learning and robustness."
+      "description": "I study how domain rules can guide neural-network training and robustness evaluation. In adversarial mix-up, the traffic-flow fundamental diagram constrains sample generation, connecting adversarial training to physically meaningful traffic states."
+    },
+    {
+      "id": "physical-scenarios-and-simulation",
+      "title": "Physical Scenarios & Simulation",
+      "description": "I work on physical scenarios and simulation for learning and evaluating intelligent-system behavior. Our vehicle-dynamics work combines tire–pothole impacts, vertical vehicle dynamics, and interactions between vehicles in a closed-loop simulation environment for reinforcement learning."
     },
     {
       "id": "efficient-learning",
       "title": "Efficient Learning",
-      "description": "Learning with efficient use of data and computational resources."
+      "description": "I am interested in helping models learn with less data and computation. This direction asks how to make effective use of available information while reducing the cost of training and adaptation."
     },
     {
       "id": "lifelong-learning",
       "title": "Lifelong Learning",
-      "description": "Learning continually as knowledge, tasks, and environments change."
+      "description": "I am interested in models that continue learning as tasks and environments change. The central challenge is to acquire new capabilities while retaining useful knowledge from earlier experience."
     }
   ]
 }

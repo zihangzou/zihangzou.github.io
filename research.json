@@ -2,7 +2,7 @@
   {
     "id": "law-compliance",
     "title": "Law Compliance",
-    "description": "Neural networks and legal requirements: scenario-aware regulation, copyright protection, and data ownership.",
+    "description": "I study how neural networks interact with legal requirements, including copyright, data ownership, and regulations. My work examines unauthorized use of training data and neural plagiarism, as well as deriving scenario-specific requirements from traffic laws.",
     "papers": [
       "lawful-autonomous-driving",
       "neural-plagiarism",
@@ -12,9 +12,43 @@
   {
     "id": "rule-compliance",
     "title": "Rule Compliance",
-    "description": "Domain rules as constraints on learning: physically grounded adversarial examples and robust neural networks.",
+    "description": "I study how domain rules can guide neural-network training and robustness evaluation. In adversarial mix-up, the traffic-flow fundamental diagram constrains sample generation, connecting adversarial training to physically meaningful traffic states.",
     "papers": [
       "adversarial-mixup"
     ]
+  },
+  {
+    "id": "physical-scenarios-and-simulation",
+    "title": "Physical Scenarios & Simulation",
+    "description": "I work on physical scenarios and simulation for learning and evaluating intelligent-system behavior. Our vehicle-dynamics work combines tire–pothole impacts, vertical vehicle dynamics, and interactions between vehicles in a closed-loop simulation environment for reinforcement learning.",
+    "papers": [],
+    "related_work": [
+      {
+        "title": "Vehicle-Dynamics-Aware Motion Planning for Pothole-Hazard Mitigation",
+        "authors": [
+          "Xiang Wang",
+          "Scott Piersall",
+          "Zihang Zou",
+          "Liqiang Wang",
+          "Rongjie Yu"
+        ],
+        "venue": "Journal of Intelligent and Connected Vehicles · 2026",
+        "paper": "https://www.sciopen.com/article/10.26599/JICV.2026.9210098",
+        "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/JICV.2026.9210098.pdf",
+        "replication_package": "https://doi.org/10.26599/ETSD.2026.9190083"
+      }
+    ]
+  },
+  {
+    "id": "efficient-learning",
+    "title": "Efficient Learning",
+    "description": "I am interested in helping models learn with less data and computation. This direction asks how to make effective use of available information while reducing the cost of training and adaptation.",
+    "papers": []
+  },
+  {
+    "id": "lifelong-learning",
+    "title": "Lifelong Learning",
+    "description": "I am interested in models that continue learning as tasks and environments change. The central challenge is to acquire new capabilities while retaining useful knowledge from earlier experience.",
+    "papers": []
   }
 ]
