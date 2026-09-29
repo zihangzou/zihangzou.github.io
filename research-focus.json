@@ -14,7 +14,7 @@
     {
       "id": "efficient-and-lifelong-learning",
       "title": "Efficient & Lifelong Learning",
-      "description": "Continually changing tasks and environments make repeated retraining costly and put previously learned capabilities at risk. My goal is to connect efficient learning with lifelong adaptation, so that models can acquire new knowledge without discarding what remains useful. This direction asks how to reuse existing representations, limit the data and computation needed for updates, and assess new-task performance together with knowledge retention."
+      "description": "Continually changing tasks and environments make repeated retraining costly and put previously learned capabilities at risk. My goal is to build models that learn efficiently and continually evolve, acquiring new knowledge while preserving useful capabilities. This direction asks how to reuse existing representations, limit the data and computation needed for updates, and assess new-task performance together with knowledge retention."
     }
   ]
 }
